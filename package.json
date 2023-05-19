@@ -2,7 +2,7 @@
   "name": "xyz_creative_studio",
   "version": "1.0.0",
   "description": "",
-  "main": "./src/index.html",
+  "main": "./src/public/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev-tailwind": "npx tailwindcss -i ./src/css/input.css -o ./src/dist/output.css --watch",

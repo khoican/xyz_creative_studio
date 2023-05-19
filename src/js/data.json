@@ -1,7 +1,10 @@
 {
     "designGraphic": [
-        {"name": "", "img": " "},
-        {"name": "", "img": " "},
-        {"name": "", "img": " "}
+        {"name": "3D Ilustrator", "img": "./../assets/images/design/graphic (1).png"},
+        {"name": "Ilustrator", "img": "./../assets/images/design/graphic (2).png"},
+        {"name": "Flat Ilustrator", "img": "./../assets/images/design/graphic (3).png"},
+        {"name": "Poster", "img": "./../assets/images/design/graphic (4).png"},
+        {"name": "3D Modeling", "img": "./../assets/images/design/graphic (5).png"},
+        {"name": "Corporate", "img": "./../assets/images/design/graphic (6).png"}
     ]
 }
