@@ -13,6 +13,9 @@ module.exports = {
       fontFamily: {
         'sans': ['Poppins'],
         'courier': ['Courier Prime']
+      },
+      ringColor: {
+        'dark': '#2D2D2D'
       }
     },
   },

@@ -1,10 +1,81 @@
 {
-    "designGraphic": [
-        {"name": "3D Ilustrator", "img": "./../assets/images/design/graphic (1).png"},
-        {"name": "Ilustrator", "img": "./../assets/images/design/graphic (2).png"},
-        {"name": "Flat Ilustrator", "img": "./../assets/images/design/graphic (3).png"},
-        {"name": "Poster", "img": "./../assets/images/design/graphic (4).png"},
-        {"name": "3D Modeling", "img": "./../assets/images/design/graphic (5).png"},
-        {"name": "Corporate", "img": "./../assets/images/design/graphic (6).png"}
+    "designGraphic": 
+    [
+        {
+            "name": "3D Ilustrator",
+            "img": "graphic (1).png"
+        },
+        {
+            "name": "Ilustrator",
+            "img": "graphic (2).png"
+        },
+        {
+            "name": "Flat Ilustrator",
+            "img": "graphic (3).png"
+        },
+        {
+            "name": "Poster",
+            "img": "graphic (4).png"
+        },
+        {
+            "name": "3D Modeling",
+            "img": "graphic (5).png"
+        },
+        {
+            "name": "Corporate", 
+            "img": "graphic (6).png"
+        }
+    ],
+    "photography": [
+        {
+            "name": "Arthur",
+            "img": "photo (1).png"
+        },
+        {
+            "name": "Edhison Bord",
+            "img": "photo (2).png"
+        },
+        {
+            "name": "Shely Mia",
+            "img": "photo (3).png"
+        },
+        {
+            "name": "Thomas Ed",
+            "img": "photo (4).png"
+        },
+        {
+            "name": "Clara",
+            "img": "photo (5).png"
+        },
+        {
+            "name": "Ling Yu Zing",
+            "img": "photo (6).png"
+        }
+    ],
+    "brand": [
+        {
+            "name": "Elephcolone",
+            "img": "brand (1).png"
+        },
+        {
+            "name": "Devil Ninja",
+            "img": "brand (2).png"
+        },
+        {
+            "name": "Golden Music",
+            "img": "brand (3).png"
+        },
+        {
+            "name": "IARICO",
+            "img": "brand (4).png"
+        },
+        {
+            "name": "Buildoor",
+            "img": "brand (5).png"
+        },
+        {
+            "name": "Symetrical",
+            "img": "brand (6).png"
+        }
     ]
 }

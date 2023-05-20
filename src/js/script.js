@@ -1,18 +1,56 @@
 import data from './data.json' assert {type: 'json'}
 const dataJson = data
-console.log(data.designGraphic)
-console.log(Object.keys(dataJson.designGraphic).length)
 
-let graphicImage = document.querySelectorAll('.graphic-img')
-let graphicText = document.querySelectorAll('.graphic-text')
-let graphic = document.querySelector('#graphic')
-const design = dataJson.designGraphic
+document.addEventListener('DOMContentLoaded', () => {
+    let graphic = document.querySelector('#graphic')
+    function designGraphic() {
+        const design = dataJson.designGraphic;
+        
+        design.map((result) => {
+            let output = `
+            <div class="w-[350px] h-[350px] bg-gray-700 graphic-img brightness-75 hover:brightness-100"  style='background-image: url("./../assets/images/design/${result.img}")'>
+                <p class="text-white p-6 -rotate-90 relative top-[10vw] right-36 graphic-text">${result.name}</p>
+            </div>`
+            
+            if(graphic != null) {
+                graphic.innerHTML += output
+            }
+        })
 
-for(let i = 0; i <= Object.keys(design).length; i++) {
-    let output = `
-    <div class="w-[350px] h-[350px] bg-gray-700 graphic-img"  style="background-image: url('${design[i].img}')">
-        <p class="text-white p-6 -rotate-90 relative top-[10vw] right-36 graphic-text">${design[i].name}</p>
-    </div>`
+    }
+    designGraphic()
+    
+    let photo = document.querySelector('#photo')
+    function photos() {
+        const photograph = dataJson.photography
 
-    graphic.innerHTML += output
-}
+        photograph.map((result) => {
+            let output = `
+            <div class="w-[350px] h-[350px] bg-gray-700 graphic-img brightness-75 hover:brightness-100"  style='background-image: url("./../assets/images/photography/${result.img}")'>
+                <p class="text-white p-6 -rotate-90 relative top-[10vw] right-36 graphic-text">${result.name}</p>
+            </div>`
+            
+            if(photo != null) {
+                photo.innerHTML += output
+            }
+        })
+    }
+    photos()
+
+    let brand = document.querySelector('#brand')
+    function brands() {
+        const brandDesign = dataJson.brand
+
+        brandDesign.map((result) => {
+            let output = `
+            <div class="w-[350px] h-[350px] bg-gray-700 graphic-img brightness-75 hover:brightness-100"  style='background-image: url("./../assets/images/brand/${result.img}")'>
+                <p class="text-white p-6 -rotate-90 relative top-[10vw] right-36 graphic-text">${result.name}</p>
+            </div>`
+            
+            if(brand != null) {
+                brand.innerHTML += output
+            }
+        })
+    }
+    brands()
+})
